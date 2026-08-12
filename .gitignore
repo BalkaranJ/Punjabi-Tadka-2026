@@ -1,3 +1,6 @@
+# Design/brand assets, not source code (logos, PSDs, daily social posts)
+Resources/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
