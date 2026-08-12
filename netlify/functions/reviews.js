@@ -1,6 +1,6 @@
 // Server-side proxy for Google Places API (New) so the API key never
 // reaches the client. Returns the rating summary and reviews exactly as
-// Google's API returns them — no filtering by rating, per Google's
+// Google's API returns them, no filtering by rating, per Google's
 // Places API content policy (unfavorable reviews may not be omitted).
 
 exports.handler = async function () {

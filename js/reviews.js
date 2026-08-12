@@ -51,6 +51,6 @@
       }
     })
     .catch(function () {
-      // Leave the section hidden — Places API not configured or unreachable.
+      // Leave the section hidden. Places API not configured or unreachable.
     });
 })();
