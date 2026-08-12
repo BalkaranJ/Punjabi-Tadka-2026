@@ -43,7 +43,7 @@
     "telephone": "+1-403-708-2899",
     "servesCuisine": ["Indian", "Punjabi", "Vegetarian"],
     "priceRange": "$$",
-    "acceptsReservations": "False",
+    "acceptsReservations": false,
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "#503 4656 Westwinds Dr NE",
@@ -61,7 +61,8 @@
     ],
     "sameAs": [
       "https://www.instagram.com/punjabitadkacalgary/",
-      "https://www.facebook.com/Punjabitadkayyc"
+      "https://www.facebook.com/Punjabitadkayyc",
+      "https://share.google/Fj4pTZbe3P2eSt3Ps"
     ]
   }
   </script>
@@ -275,6 +276,22 @@
     </div>
   </section>
 
+  <section class="reviews" id="reviews" hidden>
+    <div class="wrap">
+      <div class="section__head reveal">
+        <p class="eyebrow">Reviews</p>
+        <h2>What Calgary's saying.</h2>
+      </div>
+      <p class="reviews__summary reveal" id="reviewsSummary">
+        <span class="reviews__summary-text">Loading live reviews from Google…</span>
+      </p>
+      <div class="reviews__grid" id="reviewsGrid"></div>
+      <p class="reviews__foot">
+        <a class="plain-link" id="reviewsLink" href="https://share.google/Fj4pTZbe3P2eSt3Ps" target="_blank" rel="noopener">Read all reviews on Google →</a>
+      </p>
+    </div>
+  </section>
+
   <section class="visit fx" id="visit">
     <div class="wrap">
       <h2>Visit us</h2>
@@ -320,5 +337,6 @@
 </main>
 
 <script src="/js/main.js"></script>
+<script src="/js/reviews.js"></script>
 </body>
 </html>

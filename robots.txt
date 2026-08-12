@@ -1,4 +1,4 @@
-#Drinking the Ai Kool Aid
+#Nothing to see here
 
 User-agent: *
 Allow: /
